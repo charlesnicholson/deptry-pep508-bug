@@ -1,0 +1,7 @@
+[project]
+name = "company.repro"
+version = "0.0.1"
+dependencies = ['boto3; platform_system == "Linux"']
+
+[tool.deptry.package_module_name_map]
+#boto3 = "boto3"
