@@ -1,6 +1,6 @@
 import platform
 
-if platform.system() != "Linux":
+if platform.system() != "Windows":
     raise ValueError("unsupported platform")
 
 import boto3
